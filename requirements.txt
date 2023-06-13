@@ -1,0 +1,14 @@
+av
+matplotlib
+opencv-python
+psutil==5.9.5
+PyYAML
+scipy
+seaborn
+streamlit
+streamlit-webrtc
+torch
+torchaudio
+torchvision 
+tqdm
+ultralytics==8.0.117
