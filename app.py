@@ -2,9 +2,7 @@ import cv2
 import torch
 import streamlit as st
 
-model_path = './Models/last_custom.pt'
-
-model_yolo = torch.load(model_path)
+model_yolo = torch.load('Models')
 
 CONFIDENCE_THRESHOLD = 0.8
 
