@@ -1,6 +1,6 @@
 av
 matplotlib
-opencv-python-headless
+opencv-python
 psutil==5.9.5
 PyYAML
 scipy
