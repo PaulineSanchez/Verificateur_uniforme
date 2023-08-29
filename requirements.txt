@@ -1,6 +1,6 @@
 av
 matplotlib
-opencv-python
+opencv-python3
 psutil==5.9.5
 PyYAML
 scipy
