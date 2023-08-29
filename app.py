@@ -1,7 +1,6 @@
 import cv2
 import torch
 import streamlit as st
-from ultralytics import YOLO
 
 model_yolo = torch.hub.load('ultralytics/yolov5', 'custom', path='./Models/last_custom.pt', force_reload=False)
 
