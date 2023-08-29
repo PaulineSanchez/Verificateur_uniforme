@@ -12,3 +12,4 @@ torchaudio
 torchvision 
 tqdm
 ultralytics==8.0.117
+protobuf~=3.19.0
