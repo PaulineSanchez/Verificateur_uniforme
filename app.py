@@ -2,7 +2,7 @@ import cv2
 import torch
 import streamlit as st
 
-model_yolo = torch.hub.load('ultralytics/yolov5', 'custom', path='./Models/last_custom.pt', force_reload=False)
+model_yolo = torch.load('./Models/last_custom.pt')
 
 CONFIDENCE_THRESHOLD = 0.8
 
